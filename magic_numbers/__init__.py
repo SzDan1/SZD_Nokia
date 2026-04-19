@@ -35,4 +35,4 @@ for i in fileContent.split():
     else:
         num = int(i)
     magicN = next_magic_num(num)
-    print(f"{num}->{magicN}")
+    print(magicN)
